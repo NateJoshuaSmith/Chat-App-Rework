@@ -7,7 +7,7 @@ app = 'chat-app-rework-7cihua'
 primary_region = 'lax'
 
 [build]
-buildpacks = ["heroku/python"]
+buildpacks = ["heroku/python", "heroku/nodejs"]
 
 [http_service]
   internal_port = 3000
